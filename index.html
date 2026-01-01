@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MyPortfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lei Andrew Moraleja - Portfolio</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar">
+            <div class="logo">Lei Andrew Moraleja</div>
+            
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle">🌙</button>
+        </nav>
+    </header>
+
+   
+    <main>
+        
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Hi, I’m Lei Andrew Moraleja</h1>
+                <div class="certification-badge">🎓 Certified in Data Analytics</div>
+                <p>Aspiring Developer & Creative Builder</p>
+                <img src="css/leipogi.jpg" alt="Lei Andrew Moraleja" class="portrait">
+                <div class="hero-buttons">
+                    <a href="#about" class="cta-button primary">Learn More</a>
+                    <a href="#contact" class="cta-button secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+       
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="bio">
+                        <p>Hi, I'm Lei Andrew Moraleja, an aspiring developer passionate about creating innovative solutions through code and design. With a keen interest in technology and creativity, I strive to build projects that make a positive impact.</p>
+                    </div>
+                    <div class="hobbies-card">
+                        <h3>Hobbies & Interests</h3>
+                        <ul>
+                            <li>Playing Billiards</li>
+                            <li>Computer Games (Dota, Bloodstrike, Valorant)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="experience" class="experience reveal">
+            <div class="container">
+                <h2>Experience & Learning</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-icon">🎓</div>
+                        <div class="timeline-card">
+                            <h3>Currently Studying Web Development</h3>
+                            <p>Actively learning modern web technologies and best practices</p>
+                            <span class="timeline-date">2024 - Present</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">💻</div>
+                        <div class="timeline-card">
+                            <h3>Learning HTML, CSS & Programming Fundamentals</h3>
+                            <p>Mastering the core technologies for web development</p>
+                            <span class="timeline-date">2024</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">🚀</div>
+                        <div class="timeline-card">
+                            <h3>Building Personal Portfolio</h3>
+                            <p>Creating this responsive portfolio to showcase skills and projects</p>
+                            <span class="timeline-date">2024</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="certifications reveal">
+            <div class="container">
+                <h2>Certifications</h2>
+                <p class="section-subtitle">Professional credentials and achievements</p>
+                <div class="certifications-list">
+                    <div class="certification-item">
+                        <div class="certification-icon">🎓</div>
+                        <div class="certification-content">
+                            <h3 class="certification-title">Information Technology Specialist – Data Analytics</h3>
+                            <p class="certification-issuer">Issued by: Certiport • Pearson • CertNexus</p>
+                            <p class="certification-holder">Holder: Lei Andrew Abella Moraleja</p>
+                            <p class="certification-date">Date earned: December 19, 2025</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills reveal">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">🟧</div>
+                        <h3>HTML</h3>
+                        <p>Structuring web content with semantic markup</p>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="80%"></div>
+                        </div>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">🟦</div>
+                        <h3>CSS</h3>
+                        <p>Styling and layout with modern techniques</p>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="75%"></div>
+                        </div>
+                        <span class="skill-percentage">75%</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">🟨</div>
+                        <h3>Basic Programming</h3>
+                        <p>Fundamental programming concepts and logic</p>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="65%"></div>
+                        </div>
+                        <span class="skill-percentage">65%</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">🎨</div>
+                        <h3>Design</h3>
+                        <p>UI/UX principles and creative design</p>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="60%"></div>
+                        </div>
+                        <span class="skill-percentage">60%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+                <div id="success-message" class="success-message">Thank you! Your message has been sent successfully.</div>
+                <div class="social-links">
+                    <a href="mailto:0325-1241@lspu.edu.ph" class="social-link">📧 Email</a>
+                    <a href="https://github.com/LeiMoraleja" class="social-link">🐙 GitHub</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+    <footer>
+        <p>&copy; 2025 Lei Andrew Moraleja. All rights reserved.</p>
+    </footer>
+</body>
+</html>
